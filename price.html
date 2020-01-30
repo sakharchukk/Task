@@ -13,10 +13,10 @@
 			<div class="mainContent__list">
 				<div class="mainContent__firstItem">
 					<img src="img/logo.png">
-					<h3>Стоимость<br>вашего<br>проекта<br>от <span id="ranNum"></span>$</h3>
+					<h3>Стоимость<br>вашего<br>проекта<br>от <span id="projectPrice"></span>$</h3>
 					<p>Оставить заявку на точный расчет:</p>
 					<div class="phone">
-						<input type="tel" id="phone" name="phone" placeholder=" +38 (0..)">
+						<input type="tel" id="phone" name="phone" placeholder=" +38 (0..)" oninput="formatPhone(this)">
 						<button onclick="showText()">ЗАКАЗАТЬ</button>
 					</div>
 				</div>
@@ -34,6 +34,6 @@
 		</div>
 	</div>
 
-	<script src="script.js"></script> 
+	<script onload="populateProjectPrice()" src="script.js"></script> 
 </body>
 </html>

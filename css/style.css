@@ -50,7 +50,8 @@ body {
       margin-top: 40px;
       margin-bottom: 255px; }
       .mainContent .mainContent__list .mainContent__firstItem .button a {
-        width: 310px;
+        max-width: 310px;
+        width: 100%;
         text-decoration: none;
         color: #fff;
         font-size: 19px;
@@ -98,6 +99,31 @@ body {
       color: #909090;
       font-family: Montserrat, "Regular"; }
 
+@media (max-width: 1024px) {
+  .mainContent .mainContent__list {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .mainContent .mainContent__list .mainContent__firstItem {
+      margin: 0 auto;
+      padding-left: 0;
+      text-align: center; }
+    .mainContent .mainContent__list .mainContent__secondItem {
+      max-width: 780px;
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 50px; } }
+
 @media (max-width: 800px) {
-  .mainContent .mainContent__list .mainContent__secondItem h5 {
-    color: red; } }
+  .mainContent .mainContent__list .mainContent__firstItem h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 65px; }
+  .mainContent .mainContent__list .mainContent__firstItem p {
+    font-size: 14px; }
+  .mainContent .mainContent__list .mainContent__firstItem .button a {
+    font-size: 14px;
+    padding: 17px 50px; } }
+
+@media (max-width: 480px) {
+  .mainContent .mainContent__list .mainContent__secondItem {
+    display: none; } }

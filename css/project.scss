@@ -46,7 +46,7 @@ body{
 					border: 1px solid #fff;
 				    border: 5px;
 				    box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-				    background: url(img/bgitems.png);//Доробити
+				    // background: url(img/bgitems.png);
 				    img{
 				    	margin-top: 70px;
 				    	margin-bottom: 55px;
@@ -72,9 +72,6 @@ body{
 		    border: 1px solid #fff;
 		    border: 5px;
 		    box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-		    // background: url(img/manbg.png);
-		    // background-position: bottom 10px right;
-		    // background-repeat: no-repeat;
 		    .acquaintance{
 		    	background: #a971ed;
 		    	color: #fff;
@@ -89,7 +86,7 @@ body{
 		    	}
 		    }
 		    img{
-		    		margin-top: 55px;
+	    		margin-top: 55px;
 	    	}
 	    	h5{
 	    		font-size: 29px;
@@ -109,6 +106,62 @@ body{
 	    		color: #909090;
 	    		font-family: Montserrat, "Regular";
 	    	}
+		}
+	}
+}
+
+@media (max-width: 1150px){
+	.mainContent{
+		.mainContent__list{
+			flex-wrap: wrap;
+			.mainProject__firstItem{
+				margin: 0 auto;
+				.mainProjec__item{
+					padding-left: 0;
+				}
+			}
+			.mainContent__secondItem{
+			        max-width: 745px;
+				    width: 100%;
+				    margin: 0 auto;
+				    margin-top: 50px;
+			}
+		}
+	}
+}
+@media (max-width: 800px){
+	.mainContent{
+		.mainContent__list{
+				.mainProject{
+					margin: 0 auto;
+					.mainProjec__item{
+						margin-left: auto;
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+	}
+@media (max-width: 480px){
+	.mainContent{
+		.mainContent__list{
+			.mainProject__firstItem{
+				margin: 0 auto;
+				.mainProject{
+					.mainProjec__item{
+    				max-width: 265px;
+	   				width: 100%;
+					margin-left: auto;
+					span{
+					font-size: 10px;
+					margin-left: 0;
+				  }
+				}
+			  }	
+			}
+			.mainContent__secondItem{
+				display: none;
+			}
 		}
 	}
 }

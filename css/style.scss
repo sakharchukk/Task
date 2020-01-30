@@ -45,7 +45,8 @@ body{
 				margin-top: 40px;
 				margin-bottom: 255px;
 				a{
-					width: 310px;
+					max-width: 310px;
+					width: 100%;
 					text-decoration: none;
 					color: #fff;
 					font-size: 19px;
@@ -66,9 +67,6 @@ body{
 		    border: 1px solid #fff;
 		    border: 5px;
 		    box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-		    // background: url(img/manbg.png);
-		    // background-position: bottom 10px right;
-		    // background-repeat: no-repeat;
 		    .acquaintance{
 		    	background: #a971ed;
 		    	color: #fff;
@@ -107,13 +105,49 @@ body{
 	}
 }
 
+@media (max-width: 1024px){
+	.mainContent{
+		.mainContent__list{
+			flex-wrap: wrap;
+			.mainContent__firstItem{
+				margin: 0 auto;
+				padding-left: 0;
+				text-align: center;
+			}
+			.mainContent__secondItem{
+				    max-width: 780px;
+				    width: 100%;
+				    margin: 0 auto;
+				    margin-top: 50px;
+			}
+		}
+	}
+}
 @media (max-width: 800px){
 	.mainContent{
 		.mainContent__list{
-			.mainContent__secondItem{
-				h5{
-					color: red;
+			.mainContent__firstItem{
+				h3{
+					font-size: 25px;
+					margin-bottom: 5px;
+					margin-top: 65px;
 				}
+				p{
+					font-size: 14px;
+				}
+				.button a{
+					font-size: 14px;
+					padding: 17px 50px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 480px){
+	.mainContent{
+		.mainContent__list{
+			.mainContent__secondItem{
+				display: none;
 			}
 		}
 	}
