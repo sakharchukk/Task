@@ -55,7 +55,8 @@ body{
 				    padding: 17px;
 				    margin-top: 70px;
 				    border-radius: 40px;
-				    border: 1px solid #dcdcdc;outline: none;
+				    border: 1px solid #dcdcdc;
+				    outline: none;
 				}
 				button{
 					outline: none;
@@ -79,7 +80,7 @@ body{
 				    margin-top: 0;
 			        z-index: -1;
 				}
-		}
+			}
 		.mainContent__secondItem{	
 		    width: 530px;
 	        height: 1100px;
@@ -193,7 +194,7 @@ body{
 				h3{
 					font-size: 20px;
 				}
-			}
+		   }
 			.mainContent__secondItem{
 				display: none;
 			}
