@@ -56,10 +56,9 @@ body {
         -webkit-margin-end: auto;
         margin-inline-end: auto;
         border: 1px solid #fff;
-        border-radius: 5px;
+        border: 5px;
         -webkit-box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-        background: url(/img/bgitems.png) no-repeat center top/cover; }
+        box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2); }
         .mainContent .mainContent__list .mainProject__firstItem .mainProject .mainProject__item img {
           margin-top: 70px;
           margin-bottom: 55px;
@@ -74,15 +73,12 @@ body {
           font-weight: 600; }
   .mainContent .mainContent__list .mainContent__secondItem {
     width: 530px;
-    height: 1090px;
     text-align: center;
     margin-left: 30px;
     border: 1px solid #fff;
     border: 5px;
     -webkit-box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2);
-    overflow-x: scroll;
-    overflow-y: hidden; }
+    box-shadow: 0px 5px 14.4px 0.6px rgba(0, 0, 0, 0.2); }
     .mainContent .mainContent__list .mainContent__secondItem .acquaintance {
       background: #a971ed;
       color: #fff;
@@ -111,12 +107,6 @@ body {
       font-size: 26px;
       color: #909090;
       font-family: Montserrat, "Regular"; }
-    .mainContent .mainContent__list .mainContent__secondItem #bottonimg {
-      display: block;
-      position: relative;
-      right: 120px;
-      bottom: 45px;
-      margin-top: 0; }
 
 @media (max-width: 1150px) {
   .mainContent .mainContent__list {
@@ -127,7 +117,7 @@ body {
       .mainContent .mainContent__list .mainProject__firstItem .mainProject__item {
         padding-left: 0; }
     .mainContent .mainContent__list .mainContent__secondItem {
-      max-width: 480px;
+      max-width: 745px;
       width: 100%;
       margin: 0 auto;
       margin-top: 50px; } }
@@ -142,11 +132,6 @@ body {
 @media (max-width: 480px) {
   .mainContent .mainContent__list .mainProject__firstItem {
     margin: 0 auto; }
-    .mainContent .mainContent__list .mainProject__firstItem .logo {
-      text-align: center;
-      padding-left: 0; }
-      .mainContent .mainContent__list .mainProject__firstItem .logo p {
-        font-size: 20px; }
     .mainContent .mainContent__list .mainProject__firstItem .mainProject .mainProject__item {
       max-width: 265px;
       width: 100%;
